@@ -1,1 +1,115 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+.navbar {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.logo {
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+.header-contact {
+    font-size: 0.9rem;
+    background: #e74c3c;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.hero {
+    background: linear-gradient(135deg, #003366 0%, #00509e 100%);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.hero-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+.hero-content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.badge-confiance {
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+}
+.services-container {
+    padding: 50px 20px;
+    text-align: center;
+}
+.services-container h2 {
+    color: #003366;
+    margin-bottom: 30px;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+.service-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px 20px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+.service-card h3 {
+    color: #003366;
+    margin-bottom: 10px;
+}
+.service-card p {
+    color: #666;
+    margin-bottom: 20px;
+}
+.btn-card {
+    background: #e74c3c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%;
+}
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+/* Styles Plomberie */
+.lp-navbar { justify-content: center; gap: 20px; }
+.artisan-badge { background-color: #28a745; color: white; padding: 5px 15px; border-radius: 20px; }
+.hero-urgence { background: linear-gradient(135deg, #1a252f 0%, #2c3e50 100%); }
+.alerte-pastille { background-color: #e74c3c; color: white; padding: 8px 20px; border-radius: 50px; margin-bottom: 20px; display: inline-block;}
+.btn-appel-geant { display: inline-block; background-color: #27ae60; color: white; font-size: 1.4rem; font-weight: 900; text-decoration: none; padding: 20px; border-radius: 10px; margin: 25px 0; width: 100%; }
+.reassurance-grid { display: grid; grid-template-columns: 1fr; gap: 30px; padding: 20px;}
+.reassurance-item { text-align: center; padding: 20px; border: 1px solid #eee; border-radius: 10px; }
+.icon-small { font-size: 2.5rem; display: block; margin-bottom: 10px; }
+.lp-footer { background-color: #1a252f; }
+@media (min-width: 768px) {
+    .services-grid { grid-template-columns: repeat(2, 1fr); }
+    .reassurance-grid { grid-template-columns: repeat(3, 1fr); }
+}
