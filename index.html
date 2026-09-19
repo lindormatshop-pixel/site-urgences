@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urgence Dépannage Pyrénées-Orientales | Perpignan, Canet, Collioure, Argelès</title>
+    
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-7DC1MVNPHR"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-7DC1MVNPHR');
     </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Urgence Dépannage Pyrénées-Orientales | Perpignan, Canet, Collioure, Argelès</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,48 +21,103 @@
         <div class="logo">⚡ SOS Dépannage 66</div>
         <div class="header-contact">Intervention rapide</div>
     </header>
-
     <main>
         <section class="hero">
             <div class="hero-content">
-                <h1>Urgence Dépannage 7j/7 dans le 66</h1>
-                <p>Des artisans qualifiés interviennent chez vous en moins de 30 minutes.</p>
+                <h1>Urgence Dépannage 66 : Perpignan, Canet, Collioure, Argelès</h1>
+                <p>Ne restez pas dans l'urgence. Nos artisans locaux certifiés interviennent chez vous rapidement sur <strong>Perpignan, Canet-en-Roussillon, Collioure, Argelès-sur-Mer</strong> et alentours.</p>
+                <div class="badge-confiance">✔️ Devis clair avant intervention | ✔️ Artisans locaux</div>
             </div>
         </section>
-
-        <!-- Section des artisans -->
-        <section class="services" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; padding: 20px;">
+        
+        <section class="services-container">
+            <h2>Quelle est votre urgence ?</h2>
             
-            <!-- Carte Plombier -->
-            <div class="artisan-card" style="background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 300px; padding: 20px; text-align: center;">
-                <h3>💧 Plombier</h3>
-                <p>Fuite d'eau, débouchage, urgence plomberie.</p>
-                <a href="tel:0600000000" style="display: inline-block; background: #d32f2f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Appeler maintenant</a>
-            </div>
+            <div class="services-grid">
+                <!-- Plomberie -->
+                <a href="plombier.html" class="service-card">
+                    <img src="Plombier.jpg" alt="Plomberie" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Plomberie & Chauffage</h3>
+                    <p>Fuite d'eau, canalisation bouchée, panne de chaudière.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
 
-            <!-- Carte Serrurier -->
-            <div class="artisan-card" style="background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 300px; padding: 20px; text-align: center;">
-                <h3>🔑 Serrurier</h3>
-                <p>Porte claquée, changement de serrure, perte de clés.</p>
-                <a href="tel:0600000000" style="display: inline-block; background: #d32f2f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Appeler maintenant</a>
-            </div>
+                <!-- Électricité -->
+                <a href="electricien.html" class="service-card">
+                    <img src="https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&auto=format&fit=crop&q=80" alt="Électricité" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Électricité</h3>
+                    <p>Panne de courant, court-circuit, tableau électrique.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
 
-            <!-- Carte Électricien -->
-            <div class="artisan-card" style="background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 300px; padding: 20px; text-align: center;">
-                <h3>⚡ Électricien</h3>
-                <p>Panne de courant, court-circuit, mise en sécurité.</p>
-                <a href="tel:0600000000" style="display: inline-block; background: #d32f2f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Appeler maintenant</a>
-            </div>
+                <!-- Climatisation -->
+                <a href="clim.html" class="service-card">
+                    <img src="Clim.jpg" alt="Climatisation" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Climatisation</h3>
+                    <p>Panne de clim, recharge de gaz, réparation PAC.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
 
-            <!-- Carte Couvreur avec l'image ajoutée -->
-            <div class="artisan-card" style="background: white; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); width: 300px; padding: 20px; text-align: center;">
-                <img src="25623.jpg" alt="Artisan couvreur en intervention" style="width: 100%; border-radius: 8px; margin-bottom: 15px;">
-                <h3>🏠 Couvreur</h3>
-                <p>Fuite toiture, tuiles cassées, bâchage en urgence.</p>
-                <a href="tel:0600000000" style="display: inline-block; background: #d32f2f; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;">Appeler maintenant</a>
-            </div>
+                <!-- Pisciniste -->
+                <a href="pisciniste.html" class="service-card">
+                    <img src="Piscine.jpg" alt="Pisciniste" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Pisciniste</h3>
+                    <p>Pompe en panne, eau verte, fuite local technique.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
 
+                <!-- Assainissement -->
+                <a href="assainissement.html" class="service-card">
+                    <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&auto=format&fit=crop&q=80" alt="Assainissement" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Assainissement & Débouchage</h3>
+                    <p>Refoulement, canalisation engorgée, vidange fosse.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
+
+                <!-- Nids de Frelons -->
+                <a href="nuisibles.html" class="service-card">
+                    <img src="Frelon.jpg" alt="Nids de Frelons" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Nids de Frelons</h3>
+                    <p>Destruction d'urgence frelons asiatiques, guêpes.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
+
+                <!-- Volets & Serrurerie -->
+                <a href="volets.html" class="service-card">
+                    <img src="Serrurier.jpg" alt="Serrurerie" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Volets & Serrurerie</h3>
+                    <p>Volet roulant bloqué, porte claquée ou perte de clés.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
+
+                <!-- Vitrier -->
+                <a href="vitrier.html" class="service-card">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&auto=format&fit=crop&q=80" alt="Vitrier" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Vitrier</h3>
+                    <p>Bris de glace, vitrine cassée, sécurisation effraction.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
+
+                <!-- Couvreur / Toiture -->
+                <a href="couvreur.html" class="service-card">
+                    <img src="25623.jpg" alt="Couvreur" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Couvreur & Toiture</h3>
+                    <p>Fuite de toiture, infiltration d'eau, bâche d'urgence.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
+
+                <!-- Nettoyage Après Sinistre (NOUVEAU) -->
+                <a href="sinistre.html" class="service-card">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&auto=format&fit=crop&q=80" alt="Nettoyage Sinistre" style="width: 100%; height: 160px; object-fit: cover; border-radius: 8px; margin-bottom: 15px;">
+                    <h3>Nettoyage Après Sinistre</h3>
+                    <p>Remise en état après incendie, dégât des eaux, inondation.</p>
+                    <span class="btn-card">Intervention Rapide ➔</span>
+                </a>
+            </div>
         </section>
     </main>
+    <footer>
+        <p>SOS Dépannage 66 - Perpignan, Canet, Collioure, Argelès.</p>
+    </footer>
 </body>
 </html>
